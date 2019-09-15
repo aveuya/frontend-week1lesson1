@@ -1,8 +1,23 @@
-/**
-// ==========================================================================
-//  MAIN CSS FILE [ HEADER ]
-// ==========================================================================
-**/
-
-
-/* CSS FILE COMMENTS [ INLINE ] */
+<style> 
+.wrapper {
+  background-color:#FDFEFE;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+}
+.main {
+  background-color: #FBFEF2;
+  padding: 15px;
+}
+.sidebar {
+  background-color: #ECF0F6;
+  border: 1px dotted #000;
+  padding: 15px;
+}
+section {
+  flex: 3;
+}
+aside {
+  flex: 1;
+}
+</style>
